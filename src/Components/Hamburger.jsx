@@ -17,6 +17,7 @@ const Hamburger = () => {
         style={{
           top: navOpen ? "0" : "-100%",
           transitionDelay: navOpen ? "0s" : "0s",
+          background: navOpen ? "#18181c" : "rgba(0, 0, 0, 0)"
         }}
       >
         <ul className="nav-link text-white">
