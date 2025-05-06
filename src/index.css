@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidole&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,800;1,600&display=swap');
+@import "tailwindcss";
+
+:root {
+    font-family: sans-serif;
+}
+.portfolio{
+    font-size: 40px;
+    font-family: "Great Vibes";
+}
+.icon-list{
+    font-family: "Gidole";
+}
+.about{
+    font-family: "Gidole";
+}
+@media only screen and (max-width: 600px){
+    .portfolio{
+        font-size: 35px;
+    }
+}
