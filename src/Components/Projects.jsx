@@ -22,8 +22,8 @@ const Projects = () => {
             <p className="mb-2 text-gray-200">{projects.description}</p>
             <div className="flex gap-2">
 
-            <button className="p-4 border border-blue-600 rounded-2xl hover:bg-blue-400 shadow-2xl shadow-blue-600 cursor-pointer">Github</button>
-            <button className="p-4 border border-blue-600 rounded-2xl hover:bg-blue-400 shadow-2xl shadow-blue-600 cursor-pointer">Live</button>
+            <a href={projects.GithubUrl} className="p-4 border border-blue-600 rounded-2xl hover:bg-blue-400 shadow-2xl shadow-blue-600 cursor-pointer">Github</a>
+            <a href={projects.LiveUrl} className="p-4 border border-blue-600 rounded-2xl hover:bg-blue-400 shadow-2xl shadow-blue-600 cursor-pointer">Live</a>
             </div>
           </div>
           <img src={projects.img} alt="image" className="sm:w-[400px] w-full" />
@@ -31,7 +31,7 @@ const Projects = () => {
       ))}
       <div className="flex justify-center my-5">
 
-      <button className="p-4 border border-blue-500 rounded-2xl text-white text-3xl hover:text-blue-500 hover:border-blue-100  cursor-pointer transition-all duration-200" style={{fontFamily: "'Poppins', sans-serif"}}>See more</button>
+      <a href="https://github.com/VishalVishwakarma553" className="p-4 border border-blue-500 rounded-2xl text-white text-3xl hover:text-blue-500 hover:border-blue-100  cursor-pointer transition-all duration-200" style={{fontFamily: "'Poppins', sans-serif"}}>See more</a>
       </div>
     </motion.div>
   );
