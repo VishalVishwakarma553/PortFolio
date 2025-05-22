@@ -9,7 +9,7 @@ export const projects = [{
 {
     name: "Trip Genius",
     img: "./trip.png",
-    description: "A job portal where jobseekers can find their dream jobs easily and recruiters can create new jobs and see the applicants applied for that job and can accept or reject at the real time the application of the applicant ",
+    description: "A trip planner website where users can search for places to go and with the help of AI recommendations they can find best accommodation along with nearby attractions of the destination. The trips that the user has made in padt will also be viewable",
     Duration: "Feb-2024 to April-2025",
     GithubUrl: "https://github.com/VishalVishwakarma553/Trip-Planner",
     LiveUrl: ""
@@ -17,7 +17,7 @@ export const projects = [{
 {
     name: "Get Hired",
     img: "./jobportal.png",
-    description: "A trip planner website where users can search for places to go and with the help of AI recommendations they can find best accommodation along with nearby attractions of the destination. The trips that the user has made in padt will also be viewable",
+    description: "A job portal where jobseekers can find their dream jobs easily and recruiters can create new jobs and see the applicants applied for that job and can accept or reject at the real time the application of the applicant ",
     Duration: "April-2025 to present",
     GithubUrl: "https://github.com/VishalVishwakarma553/Job-Portal",
     LiveUrl: "https://job-portal-apvf.vercel.app/"
